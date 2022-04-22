@@ -2,6 +2,7 @@ import React from 'react';
 import { Modal, Card } from 'react-bootstrap'
 import Andres from './Andres.jpg'
 import tan from './20220315_112904.jpg'
+import Beau from './beau.jpg'
 
 class AboutUs extends React.Component {
   constructor(props) {
@@ -73,12 +74,16 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Beau Hibbert</Card.Title>
               <Card.Body>
-                <img src='#' alt='Beau' />
+                <img src='./beau.jpg' alt='Beau' />
 
-                <p>Software Developer</p>
+                <p>Full Stack Software Developer with a background in Economics</p>
                 <div className='AboutUsLinks'>
                   <a href='https://github.com/orgs/ABCT-Mid/people/BeauHibbert'>GitHub</a>
                   <a href='https://www.linkedin.com/in/beau-hibbert/'>LinkedIn</a>
+                  <p>Job: Unicorn</p>
+                  <p>Strength: 75</p>
+                  <p>Agility: 10</p>
+                  <p>Sussy: 200</p>
                 </div>
 
               </Card.Body>
