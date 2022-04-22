@@ -1,8 +1,12 @@
 import React from 'react';
 import { Modal, Card } from 'react-bootstrap'
 import Andres from './Andres.jpg'
-import tan from './20220315_112904.jpg'
 import Beau from './beau.jpg'
+
+
+import tan from './IDclose2.PNG'
+import Tray from './faces.jpg'
+
 
 class AboutUs extends React.Component {
   constructor(props) {
@@ -42,9 +46,13 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Chattray Chea</Card.Title>
               <Card.Body>
-                <img src='#' alt='Chattray' />
-
-                <p>Software Developer</p>
+                <img src={Tray} alt='Chattray' />
+                <p>Full stack software developer who loves to nerd out about plants!</p>
+                <p>Job: Mechanic</p>
+                <p>Skills: Breaking things apart, then fixing them back up! *BOB THE BUILDER!*</p>
+                <p>Strength: 40</p>
+                <p>Agility: 20</p>
+                <p>Sussy: 1</p>
                 <div className='AboutUsLinks'>
                   <a href='https://github.com/orgs/ABCT-Mid/people/Zavvy-Glitch'>GitHub</a>
                   <a href='https://www.linkedin.com/in/chattray-chea/'>LinkedIn</a>
@@ -74,7 +82,7 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Beau Hibbert</Card.Title>
               <Card.Body>
-                <img src='./beau.jpg' alt='Beau' />
+                <img src={Beau} alt='Beau' />
 
                 <p>Full Stack Software Developer with a background in Economics</p>
                 <div className='AboutUsLinks'>
