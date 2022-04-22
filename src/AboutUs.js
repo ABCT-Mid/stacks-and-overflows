@@ -1,8 +1,10 @@
 import React from 'react';
 import { Modal, Card } from 'react-bootstrap'
 import Andres from './Andres.jpg'
+
+import tan from './IDclose2.PNG'
 import Tray from './faces.jpg'
-import tan from './20220315_112904.jpg'
+
 
 class AboutUs extends React.Component {
   constructor(props) {
