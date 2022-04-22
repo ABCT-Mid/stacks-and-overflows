@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Card } from 'react-bootstrap'
 import Andres from './Andres.jpg'
-import tan from './20220315_112904.jpg'
+import tan from './IDclose2.PNG'
 
 class AboutUs extends React.Component {
   constructor(props) {
