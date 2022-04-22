@@ -28,7 +28,7 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Andres Mills Gallego</Card.Title>
               <Card.Body>
-                <img src={Andres} alt='Andres' />
+                <img src={Andres} alt='Andres' className='ourPhotos'/>
                 <p>Full stack software developer who loves to travel, spend time with his family and learn new things!</p>
                 <p>Job: Thief</p>
                 <p>Skills: Being sneaky, keen eye for detail, and can fashion a quick tool out of almost anything</p>
@@ -44,7 +44,7 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Chattray Chea</Card.Title>
               <Card.Body>
-                <img src={Tray} alt='Chattray' />
+                <img src={Tray} alt='Chattray' className='ourPhotos'/>
                 <p>Full stack software developer who loves to nerd out about plants!</p>
                 <p>Job: Mechanic</p>
                 <p>Skills: Breaking things apart, then fixing them back up! *BOB THE BUILDER!*</p>
@@ -61,7 +61,7 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Tanner Percival</Card.Title>
               <Card.Body>
-                <img src={tan} alt='Tanner' />
+                <img src={tan} alt='Tanner' className='ourPhotos'/>
                 <p>Full stack software developer who is passionate about the environment!</p>
                 <p>Job: Wizard</p>
                 <p>Skills: Doing wizard things</p>
@@ -80,7 +80,7 @@ class AboutUs extends React.Component {
             <Card className='cards'>
               <Card.Title>Beau Hibbert</Card.Title>
               <Card.Body>
-                <img src='#' alt='Beau' />
+                <img src='#' alt='Beau' className='ourPhotos'/>
 
                 <p>Software Developer</p>
                 <div className='AboutUsLinks'>

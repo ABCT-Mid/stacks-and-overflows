@@ -67,8 +67,11 @@ main {
 }
 
 
-.modal img {
-  width: 50%;
+.ourPhotos {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border: 5px solid magenta;
   float: left;
   margin-right: 1rem;
   border-radius: 5px;

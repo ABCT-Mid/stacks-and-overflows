@@ -12,6 +12,14 @@ class Results extends React.Component {
 
 
   render() {
+    let displayedResults = this.props.results.map((char, index) => (
+      <ListGroup.Item key={index}>
+        <p>Name: {char.username}</p>
+        <p>Job: {char.id}</p>
+        <p>Health: {char.health}</p>
+        <p>You answered {char.answeredCorrectly} correctly</p>
+        </ListGroup.Item>
+    ))
     return (
       <>
         <Modal
@@ -26,16 +34,7 @@ class Results extends React.Component {
           <Modal.Body>
             <ListGroup>
             <img src={Dragon} alt='dragon'/>
-              <ListGroup.Item>Beau: 100000</ListGroup.Item>
-              <ListGroup.Item>Tray: 85000</ListGroup.Item>
-              <ListGroup.Item>Tanner: 80000</ListGroup.Item>
-              <ListGroup.Item>Nova: 66000</ListGroup.Item>
-              <ListGroup.Item>Petra: 61445</ListGroup.Item>
-              <ListGroup.Item>Ken Griffey: 51510</ListGroup.Item>
-              <ListGroup.Item>Albert Einstein: 49999</ListGroup.Item>
-              <ListGroup.Item>Cleopatra: 37600</ListGroup.Item>
-              <ListGroup.Item>Smeagol: 12000</ListGroup.Item>
-              <ListGroup.Item>Andres: 1</ListGroup.Item>
+              {displayedResults}
             </ListGroup>
           </Modal.Body>
         </Modal>

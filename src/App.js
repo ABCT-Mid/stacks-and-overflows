@@ -28,14 +28,19 @@ class App extends React.Component {
 
   getResults = async () => {
     try {
-      let url = '';
+      let url = 'https://25ubvmru83.execute-api.us-west-2.amazonaws.com/Production/game';
       let results = await axios.get(url);
       this.setState({results: results.data})
+      console.log(this.state.results)
     } catch (error) {
       console.log('Error with retreiving the results', error);
     }
   }
-
+  
+  componentDidMount() {
+    this.getResults();
+  }
+  
   render() {
     return (
       <>
