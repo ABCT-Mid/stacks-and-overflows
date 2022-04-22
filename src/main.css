@@ -1,0 +1,105 @@
+
+main h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 10rem;
+  color: rgba(198, 2, 2, 0.883);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: dimgray;
+  background-image: url(./sookybackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons {
+  width: 35%;
+  margin: auto;
+}
+
+.modal .modal-content {
+  background-color:rgba(35, 32, 32, 0.888);
+}
+
+.modal .modalTitle {
+  margin-left: 37%;
+  font-family: 'Creepster', cursive;
+  font-size: 4rem;
+  color:maroon;
+}
+
+.card {
+  margin: 2rem 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card .card-title {
+  font-family: 'Creepster', cursive;
+  font-size: 2rem;
+  width: 50%;
+  margin: auto;
+  color: darkblue;
+  border-bottom: double 2px darkgreen;
+}
+
+.modal-body .cards {
+  background-color:blueviolet;
+  color:honeydew;
+  font-size: 1rem;
+}
+
+.cards a {
+  color: gold;
+}
+
+.cards a:hover {
+  color:navy;
+}
+.AboutUsLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.modal img {
+  width: 50%;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+#portal {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  height: 50rem;
+  margin: auto;
+  border: solid 3px red;
+  border-radius: 50%;
+  background-color: rgba(8, 8, 9, 0.899);
+}
+
+#navBar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 2rem;
+  margin: 0 3rem;
+}
+.list-group img {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.list-group .list-group-item:hover {
+  background-color: cyan;
+}
