@@ -12,14 +12,24 @@ class Results extends React.Component {
 
 
   render() {
-    let displayedResults = this.props.results.map((char, index) => (
-      <ListGroup.Item key={index}>
-        <p>Name: {char.username}</p>
-        <p>Job: {char.id}</p>
-        <p>Health: {char.health}</p>
-        <p>You answered {char.answeredCorrectly} correctly</p>
-        </ListGroup.Item>
+
+    // let recentPlayer = this.props.results[0];
+
+    let sortedResults = this.props.results.sort((a,b) => {
+      return +b.health - +a.health
+    })
+
+    let displayedResults = sortedResults.map((char) => (
+     
+        <ListGroup.Item key={char.username}>
+          <p>Name: {char.username}</p>
+          <p>Job: {char.id}</p>
+          <p>Health: {char.health}</p>
+          <p>You answered {char.answeredCorrectly} correctly</p>
+          </ListGroup.Item>
+    
     ))
+    
     return (
       <>
         <Modal

@@ -101,8 +101,16 @@ main {
   width: 75%;
   margin: auto;
   margin-bottom: 2rem;
+  border-radius: 5xp;
+}
+
+.list-group .list-group-item {
+  background-color:blueviolet;
+  color:honeydew;
+  font-size: 1rem;
 }
 
 .list-group .list-group-item:hover {
-  background-color: cyan;
+  background-color:indigo;
+  font-size: 1.25rem;
 }
